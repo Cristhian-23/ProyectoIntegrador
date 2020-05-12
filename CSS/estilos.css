@@ -23,6 +23,7 @@ body {
     margin-bottom: 60px;
 }
 
+
 /* Header */
 
 header {
@@ -137,6 +138,17 @@ header .textos-header{
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
+.imagen-nucleos-dos{
+    width: 40%;
+    height: 250px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
 .imagen-nucleos > img{
     width: 100%;
     height: 100%;
@@ -238,4 +250,12 @@ footer{
     font-size: 24px;
     margin: 20px 0 0 0;
     color: #9e9797;
+}
+
+.link{
+    text-decoration: none;
+    color: #9e9797;
+}
+.link:hover{
+    color: #95CCE8;
 }
