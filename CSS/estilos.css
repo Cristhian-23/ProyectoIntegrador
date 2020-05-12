@@ -141,8 +141,10 @@ header .textos-header{
 .imagen-nucleos-dos{
     width: 40%;
     height: 250px;
-    margin-bottom: 10px;
-    padding-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -258,4 +260,23 @@ footer{
 }
 .link:hover{
     color: #95CCE8;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: white;
+    color: #222!important;
+}
+.boton {
+    height: 45px;
+    width: 80px;
+    background-color: white;
+    color: #222!important;
+    border-radius: 40px;
+    text-decoration: none;
+    background-color: #00d973; /* Código de un color Verde */
+    color: white!important;
+}
+.boton:hover{
+    background-color: darkgreen;
 }
