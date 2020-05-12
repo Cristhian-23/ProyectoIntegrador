@@ -156,6 +156,9 @@ header .textos-header{
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     text-align: center;
 }
+.imagen-nucleos-dos p{
+    font-size: 13px;
+}
 
 .imagen-nucleos > img{
     width: 100%;
